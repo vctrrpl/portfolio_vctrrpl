@@ -11,3 +11,9 @@ html {
 body {
   @apply bg-slate-900 text-zinc-50 h-[200vh];
 }
+
+@layer components {
+  .menu-btn {
+    @apply w-10 h-10 grid place-items-center bg-slate-600/10 rounded-xl ring-inset ring-1 ring-slate-800/[0.02] backdrop-blur-2xl hover:bg-slate-700 transition-[transform,background-color] active:scale-95;
+  }
+}
