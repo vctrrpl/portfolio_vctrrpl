@@ -39,7 +39,7 @@ export default function Navbar() {
   }, [isMenuOpen]);
 
   return (
-    <nav className="flex items-center justify-between w-full px-6 pt-4 relative">
+    <nav className="flex items-center justify-between w-full px-6 py-4 relative">
       {/* Logo */}
       <img src={logo} alt="Logo" className="h-10 w-auto flex-shrink-0" />
 
