@@ -11,3 +11,13 @@ html {
 body {
   @apply bg-slate-900 text-zinc-50 h-[200vh];
 }
+
+@layer utilities {
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
+
+  .backdrop-blur-lg {
+    backdrop-filter: blur(24px);
+  }
+}
