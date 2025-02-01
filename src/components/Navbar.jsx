@@ -44,7 +44,7 @@ export default function Navbar() {
       <img src={logo} alt="Logo" className="h-10 w-auto flex-shrink-0" />
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex items-center backdrop-blur-md bg-neutral-100/50 dark:bg-neutral-800/50 rounded-2xl shadow-xl shadow-black/5 border border-neutral-400/10 px-4 py-2">
+      <div className="hidden md:flex items-center backdrop-blur-md bg-neutral-100/50 dark:bg-neutral-800/50 rounded-2xl shadow-xl shadow-black/5 border border-neutral-400/10 ml-20 px-4 py-2">
         <ul className="flex gap-4">
           {menuItems.slice(0, 3).map((item) => (
             <NavbarLink key={item.name} href={item.href}>
